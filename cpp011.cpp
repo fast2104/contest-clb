@@ -11,7 +11,7 @@ int main() {
 	// thuật toán find, .find
 	auto x = find(a.begin(), a.end(), k);
 	if (x != a.end()) {
-		// distance là độ dài từ đầu vector tới x
+		// distance để đo độ dài từ đầu vector (a.begin()) tới x
 		cout << distance(a.begin(), x);
 	} else {
 		cout << -1;
