@@ -17,4 +17,4 @@ int main() {
 		cout << "\n";
 }
 }
-//sap xep tang dan, dung dc co 10 diem thoi hsy
+//CODE SAI, ĐỪNG CHÉP 
