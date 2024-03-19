@@ -16,7 +16,7 @@ int main() {
     char phep_toan[5];
 	cin >> phep_toan;
     int tu, mau;
-	// so sánh xem mình nhập trùng chữ tổng này xem, strcmp chắc sếp biết vì code c cũng có, còn làm sao char dùng đc strcmp thì e kbt :>
+	// so sánh xem mình nhập trùng chữ tổng này xem, strcmp chắc sếp biết vì code c cũng có
     if (strcmp(phep_toan, "Tong") == 0) {
         tu = a * d + b * c;
         mau = b * d;
