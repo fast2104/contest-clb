@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//tao struc nhap ttin cay
+//tạo struct nhập thông tin cây
 struct tre {
     int stt;
     int age;
@@ -17,7 +17,7 @@ int main() {
     }
     Tree maxAge = a[0];
     for (int i = 1; i < n; ++i) {
-    	//tim xem cay nao cao nhat
+    	//tìm cây cao nhất
         if (a[i].age > maxAge.age) {
             maxAge = a[i];
         }
