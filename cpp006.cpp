@@ -14,7 +14,7 @@ int main() {
 	}
 	// lập vector để chuẩn bị  đảo ngược set
 	vector<int> vt(st.begin(), st.end());
-	// đảo ngược set, có trên blog 28tech đấy
+	// đảo ngược set, có trên blog 28tech đấy https://blog.28tech.com.vn/stl-vector-trong-c
 	sort(vt.begin(), vt.end(), greater<int>());
 	for (auto x : vt) {
 		cout << x << " ";
