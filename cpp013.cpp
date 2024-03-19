@@ -10,10 +10,12 @@ int main() {
         for (int i = 0; i < n; i++) {
             cin >> a[i];
         }
+        // sắp xếp tăng dần để cbi cho vào 2 vòng for, cái vector này chỉ để sắp xếp tăng dần thôi chứ chả ảnh hương tới code
         sort(a.begin(), a.end());
         int count = 0;
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
+                // vòng for để xem các số sau - số trước bé hơn k, cái này chắc sếp cx biết
                 if (a[j] - a[i] < k) {
                     count++;
                 } else {
