@@ -16,6 +16,7 @@ int main() {
     char phep_toan[5];
 	cin >> phep_toan;
     int tu, mau;
+	// so sánh xem mình nhập trùng chữ tổng này xem, strcmp chắc sếp biết vì code c cũng có, còn làm sao char dùng đc strcmp thì e kbt :>
     if (strcmp(phep_toan, "Tong") == 0) {
         tu = a * d + b * c;
         mau = b * d;
@@ -24,7 +25,7 @@ int main() {
         mau = b * d;
     }
     rutgon_ps(tu, mau);
-	//cái này để đẩy dấu trừ lên tử là loại trừ cả tử và mẫu đều âm sẽ in ra 2 dấu trừ
+	//cái này để đẩy dấu trừ lên tử và loại trừ cả tử và mẫu đều âm sẽ in ra 2 dấu trừ, thử code 0 có dòng if này rồi dùng test case đề xem, sẽ ra 1/-4 đấy
     if (mau < 0) {
     	cout << "-";
     	mau = abs(mau);
