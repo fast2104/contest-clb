@@ -24,6 +24,7 @@ int main() {
         mau = b * d;
     }
     rutgon_ps(tu, mau);
+	//cái này để đẩy dấu trừ lên tử là loại trừ cả tử và mẫu đều âm sẽ in ra 2 dấu trừ
     if (mau < 0) {
     	cout << "-";
     	mau = abs(mau);
