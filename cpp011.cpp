@@ -18,7 +18,8 @@ int main() {
 	}
 }
 /*
-code cho người khai báo vector kiểu clb, sửa trên github nên nó không tự format code đâu, chia nửa màn ra xong chép lại cho nó chắc
+cách trẻn khai báo kiểu e, code cho người khai báo vector kiểu clb ở dưới nhá, code lại gần như cả bài thiếu mỗi int main trở lên thôi đó
+sửa trên github nên nó không tự format code đâu, chia nửa màn ra xong chép lại cho nó chắc
 int n, k;
 cin >> n;
 vector<int> vt;
