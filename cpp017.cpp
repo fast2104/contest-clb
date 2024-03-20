@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-//tạo struct nhập thông tin cây
+//tạo struct nhập thông tin cây, sếp đổi tên struct thành info hay cái qq j cũng đc
 struct tre {
     int stt;
     int age;
