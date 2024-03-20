@@ -6,6 +6,7 @@ int main() {
 	while (t--) {
 	int n;
 	cin >> n;
+		// kbt bài này vector để làm gì nma kệ đi :>>
 	vector<int> a(n);
 	int k;
 	cin >> k;
