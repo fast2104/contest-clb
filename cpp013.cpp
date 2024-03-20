@@ -6,6 +6,7 @@ int main() {
     while (T--) {
         int n, k;
         cin >> n >> k;
+        // khác vs bài trước thì cái này phải chạy 2 for lồng thì e kbt cách khai báo kiểu clb đâu, e chỉ áp dụng vector để sắp xếp lại dãy sao cho tăng dần thoi
         vector<int> a(n);
         for (int i = 0; i < n; i++) {
             cin >> a[i];
